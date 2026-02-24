@@ -1,0 +1,6 @@
+composer create-project laravel/laravel <project-name>
+cd <project-name>
+php artisan migrate
+composer require laravel/passport
+php artisan install:api --passport
+php artisan migrate

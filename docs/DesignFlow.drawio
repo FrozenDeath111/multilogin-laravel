@@ -1,0 +1,193 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="QZziMoV8Y5GqiA0tw907">
+    <mxGraphModel dx="1678" dy="1029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-75" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1240" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-1" value="Multi Login System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-2" value="Api Route" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="120" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-3" value="Web Route" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="120" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TaaybIPY8LQxt4aJVX-C-4" target="TaaybIPY8LQxt4aJVX-C-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-4" value="Description" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-5" value="Independent App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-6" value="Different Database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-7" value="Already logged in Ecom site, for Foodpanda site no login credential needed again." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-9" value="Both laravel app only work as backend. If logged into one backend, it becomes the auth provider for 2nd backend." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-11" value="Flow Start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TaaybIPY8LQxt4aJVX-C-12" target="TaaybIPY8LQxt4aJVX-C-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-12" value="Login or Register to Ecom" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-13" value="When have access token for Ecom, this token can be used to login directly to Foodpanda to get Data from Foodpanda." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TaaybIPY8LQxt4aJVX-C-14" target="TaaybIPY8LQxt4aJVX-C-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-14" value="Get access token for Ecom" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="540" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-15" value="Unauth Error" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="540" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TaaybIPY8LQxt4aJVX-C-17" target="TaaybIPY8LQxt4aJVX-C-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TaaybIPY8LQxt4aJVX-C-17" target="TaaybIPY8LQxt4aJVX-C-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-17" value="OAuth" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-20" value="Success" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="470" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-23" value="Error" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="470" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TaaybIPY8LQxt4aJVX-C-24" target="TaaybIPY8LQxt4aJVX-C-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-24" value="Call FP to get auth needed data with access token" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="600" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TaaybIPY8LQxt4aJVX-C-28" target="TaaybIPY8LQxt4aJVX-C-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-28" value="Middleware of FP verify by using that access token to get userinfo from Ecom for Auth login." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="660" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TaaybIPY8LQxt4aJVX-C-30" target="TaaybIPY8LQxt4aJVX-C-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TaaybIPY8LQxt4aJVX-C-30" target="TaaybIPY8LQxt4aJVX-C-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-30" value="From Ecom" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-32" value="Success" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="770" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TaaybIPY8LQxt4aJVX-C-33" target="TaaybIPY8LQxt4aJVX-C-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-33" value="Verified login with user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="840" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TaaybIPY8LQxt4aJVX-C-35" target="TaaybIPY8LQxt4aJVX-C-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-35" value="Fetch Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="900" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-37" value="Stop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="960" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-39" value="Unauth Error" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="840" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-41" value="Error" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="770" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-47" value="Both Laravel app have different frontend with server rendering." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="160" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-48" value="When logged in Ecom, There is a button that redirects to FoodPanda with shortlived code, FoodPanda use that to get user info for login." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="240" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-49" value="FoodPanda - FP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-50" value="Flow Start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="340" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TaaybIPY8LQxt4aJVX-C-51" target="TaaybIPY8LQxt4aJVX-C-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-51" value="Login or Register to Ecom" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="400" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TaaybIPY8LQxt4aJVX-C-52" target="TaaybIPY8LQxt4aJVX-C-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-52" value="Button the redirects to FP app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="460" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TaaybIPY8LQxt4aJVX-C-53" target="TaaybIPY8LQxt4aJVX-C-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-53" value="FP gets the code and send to again to Ecom to varify" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="520" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TaaybIPY8LQxt4aJVX-C-54" target="TaaybIPY8LQxt4aJVX-C-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TaaybIPY8LQxt4aJVX-C-54" target="TaaybIPY8LQxt4aJVX-C-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-54" value="SSO-Varify" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="580" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-55" value="Single Sign On - SSO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TaaybIPY8LQxt4aJVX-C-59" target="TaaybIPY8LQxt4aJVX-C-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-59" value="Ecom varified and send user credential&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="660" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-61" value="Success" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="920" y="590" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-62" value="Default to Login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="660" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-64" value="Error" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="590" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TaaybIPY8LQxt4aJVX-C-65" target="TaaybIPY8LQxt4aJVX-C-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-65" value="Use that credential to create and login user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="720" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TaaybIPY8LQxt4aJVX-C-67" target="TaaybIPY8LQxt4aJVX-C-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-67" value="Redirect to dashboard that needed Auth" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="780" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaybIPY8LQxt4aJVX-C-72" value="Stop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="840" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
